@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    margin: 5rem;
+    max-width: 70rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.371);
+    border: 3px solid black;
+    padding: 0.5rem;
+    font-family: 'Young Serif', serif;
+
+}
+
+.portföy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+}
+
+h1 {
+    margin-left: 3rem;
+}
+
+.listeayar {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.listekutu {
+    display: inline-block;
+    border: solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(22, 18, 18);
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+.üstdiv {
+    background-color: rgb(44, 76, 238);
+}
+
+.ortadiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-top: 2rem;
+}
+
+.projekutu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 111, 0);
+    width: 13rem;
+
+}
+
+.projeayar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iletişimayar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    vertical-align: bottom;
+    text-decoration-line: none;
+
+
+}
+
+.banaulaş {
+    display: inline-block;
+    text-align: center;
+    border: solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(22, 18, 18);
+    vertical-align: bottom;
+    color: antiquewhite;
+
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.asdasd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.11);
+}
