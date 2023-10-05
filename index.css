@@ -1,12 +1,12 @@
 body {
     display: flex;
-    margin: 5rem;
-    max-width: 70rem;
+
+    max-width: 100rem;
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.371);
     border: 3px solid black;
-    padding: 0.5rem;
+
     font-family: 'Young Serif', serif;
 
 }
@@ -48,6 +48,21 @@ h1 {
     flex-direction: row;
     justify-content: stretch;
     margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.ortaisim {
+    margin-left: 5rem;
+}
+
+
+img {
+    width: 40vw;
+}
+
+.paragraf {
+    display: flex;
+    max-width: 25rem;
 }
 
 .projekutu {
@@ -65,6 +80,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .iletişimayar {
@@ -102,4 +119,57 @@ h1 {
     justify-content: flex-start;
     margin-top: 1rem;
     background-color: rgba(0, 0, 0, 0.11);
+}
+
+/* 800PX TABLET UYARLAMASI*/
+@media(max-width: 800px) {
+    .üstdiv {
+        text-align: center;
+    }
+
+    img {
+        width: 55vw;
+    }
+
+    .resim {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 58vw;
+    }
+
+    .ortaisim {
+        margin: 0;
+        text-align: center;
+    }
+
+    .ortadiv {
+        justify-content: center;
+    }
+
+    .ortaisim .listeayar .listekutu {
+        margin-right: 3rem;
+    }
+
+}
+
+@media(max-width: 510px) {
+    .üstdiv .listeayar {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-right: 2rem;
+    }
+
+    h1 {
+        margin-right: 2rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .listeayar.iletişimayar {
+        margin-right: 4.5rem;
+    }
 }
